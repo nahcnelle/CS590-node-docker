@@ -1,0 +1,35 @@
+{
+  "name": "cs590-node-docker",
+  "version": "1.0.0",
+  "description": "node docker demo",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo test build completed. no package was uploaded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahcnelle/CS590-node-docker.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Ellen Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahcnelle/CS590-node-docker/issues"
+  },
+  "homepage": "https://github.com/nahcnelle/CS590-node-docker#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.3"
+  }
+}
